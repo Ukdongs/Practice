@@ -1,0 +1,49 @@
+{
+    "timestamp_kst":  "2026-11-11T04:30:22.8551696+09:00",
+    "phase":  "04:30-05:29",
+    "ram_free_gb":  2.45,
+    "cpu_percent":  0,
+    "disk_free_gb":  26.25,
+    "active_codex_hermes_sessions":  5,
+    "active_collection_workers":  0,
+    "ngsim_60s_manifest_rows":  303650,
+    "ngsim_60s_files":  [
+                            {
+                                "rows":  89039,
+                                "bytes":  14389280,
+                                "sha256_match":  true,
+                                "site":  "i-80",
+                                "sha256":  "be1a27a4e1d4de9f327800962c5a1f7b48dfbe66744f49c22d2964f5bfec34f1",
+                                "file":  "C:\\Users\\Public\\Documents\\RiskRadarOpenDataResearch\\ngsim_expansion_60s\\ngsim_i_80_60s.csv"
+                            },
+                            {
+                                "rows":  105430,
+                                "bytes":  17750535,
+                                "sha256_match":  true,
+                                "site":  "us-101",
+                                "sha256":  "2e4cd4e8f533c4a00d6c97a37984baaa08ed3e50ad1a2b6ecedfbc8d6a4d0227",
+                                "file":  "C:\\Users\\Public\\Documents\\RiskRadarOpenDataResearch\\ngsim_expansion_60s\\ngsim_us_101_60s.csv"
+                            },
+                            {
+                                "rows":  43972,
+                                "bytes":  7937070,
+                                "sha256_match":  true,
+                                "site":  "lankershim",
+                                "sha256":  "92017dd4722df789054e473681138d93f9b0f28e38fc692cb8a8527ec57842ad",
+                                "file":  "C:\\Users\\Public\\Documents\\RiskRadarOpenDataResearch\\ngsim_expansion_60s\\ngsim_lankershim_60s.csv"
+                            },
+                            {
+                                "rows":  65209,
+                                "bytes":  11538357,
+                                "sha256_match":  true,
+                                "site":  "peachtree",
+                                "sha256":  "8beb8f4350a9209599add8e703eb08ae93695105edb06ec272d3a04773a99dfc",
+                                "file":  "C:\\Users\\Public\\Documents\\RiskRadarOpenDataResearch\\ngsim_expansion_60s\\ngsim_peachtree_60s.csv"
+                            }
+                        ],
+    "decision":  "DEFER_NEW_AGENT_AND_DOWNLOAD_UNTIL_ACTIVE_SESSIONS_DRAIN",
+    "reason":  "Five existing agent sessions; avoid overlapping writes, exceeding local failover gate, and duplicate collection",
+    "planned_next":  "After sessions drain, collect at most two newly licensed disjoint small datasets; do not download raw data without verified terms",
+    "git_push":  "NOT_ATTEMPTED_BEFORE_0930",
+    "evaluation":  "NOT_MEASURED"
+}

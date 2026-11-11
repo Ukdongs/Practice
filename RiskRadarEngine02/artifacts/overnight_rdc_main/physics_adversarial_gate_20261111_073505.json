@@ -1,0 +1,19 @@
+{
+    "time_kst":  "2026-11-11T07:35:05.5861357+09:00",
+    "phase":  "07:30-08:29 targeted physical QA",
+    "device":  "DO",
+    "ram_free_gb":  2.24,
+    "disk_free_gb":  26.28,
+    "test_command":  "python -m pytest -q scripts/sim_v2/test_sim_v2.py prism-risk-engine/tests/test_risk.py --disable-warnings --maxfail=1 (cwd root, PYTHONPATH root;prism-risk-engine)",
+    "test_result":  "PASS",
+    "tests_passed":  35,
+    "test_log":  "C:\\Users\\Public\\Documents\\RiskRadarEngine02\\artifacts\\overnight_rdc_main\\physics_regression_20261111_073447.log",
+    "initial_invocation_issue":  "First attempt from unrelated cwd failed ModuleNotFoundError scripts; rerun with proper PYTHONPATH and cwd passed",
+    "physical_interpretation":  "Unit/regression tests only; candidate trajectory overlap is not observed vehicle-body collision",
+    "synthetic_adversarial_coverage":  "Not independently established in this run",
+    "real_world_safety":  "NOT PROVEN",
+    "real_data_metrics":  "NOT MEASURED",
+    "git_push":  "NOT PERMITTED BEFORE 09:30",
+    "new_downloads":  0,
+    "active_local_agents":  "Previous log shows 5 agent sessions; no new agents launched"
+}

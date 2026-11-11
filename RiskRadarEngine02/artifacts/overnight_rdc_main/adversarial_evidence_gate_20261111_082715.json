@@ -1,0 +1,39 @@
+{
+    "timestamp_kst":  "2026-11-11T08:27:15.6493602+09:00",
+    "phase":  "07:30-08:29 adversarial QA independent evidence and handoff gate",
+    "device":  "DO",
+    "resource":  {
+                     "ram_free_gb":  2.18,
+                     "disk_free_gb":  26.28
+                 },
+    "existing_physics_test":  {
+                                  "status":  "PASS_RECORDED",
+                                  "passed":  35,
+                                  "sha256":  "537DF176CE31C2F1BC880D5AD1D6B6FBFAA9A0E1A3EBEEFB3DD7692824790405"
+                              },
+    "existing_v3_test":  {
+                             "status":  "PASS_RECORDED",
+                             "passed":  72,
+                             "sha256":  "354CFED2407043FB88C6A2D9F2457E40EDAE9B7BCC796CDAAC0B2C72B9869D17"
+                         },
+    "new_test_execution":  "NONE - prior tests not repeated",
+    "git_modified_or_untracked_count":  22,
+    "protected_or_app_changes":  [
+                                     " M RiskRadarPleosApp/BUILD_APK_OFFLINE.ps1",
+                                     " M RiskRadarPleosApp/app/src/main/java/ai/riskradar/assess/MainActivity.java",
+                                     " M prism-risk-engine/src/prism_assess/engine.py"
+                                 ],
+    "adversarial_scenarios":  {
+                                  "cut_in_without_indicator":  "NOT_INDEPENDENTLY_VERIFIED",
+                                  "signal_only":  "NOT_INDEPENDENTLY_VERIFIED",
+                                  "aborted_lane_change":  "NOT_INDEPENDENTLY_VERIFIED",
+                                  "fast_rear_approach":  "NOT_INDEPENDENTLY_VERIFIED",
+                                  "candidate_overlap_vs_body_collision":  "DISTINCTION_DOCUMENTED_NOT_REAL_WORLD_VALIDATED"
+                              },
+    "real_world_metrics":  "NOT MEASURED",
+    "real_vehicle_safety":  "NOT PROVEN",
+    "recommendation":  "Freeze known-good logs and isolate protected/app modifications from 09:30 Git upload; validate explicit scenario coverage before claiming adversarial PASS",
+    "downloads":  0,
+    "new_agent_launches":  0,
+    "git_push":  "NONE before 09:30"
+}

@@ -1,0 +1,30 @@
+{
+    "time_kst":  "2026-11-11T06:33:44.4809992+09:00",
+    "phase":  "06:30-07:29 real benchmark eligibility gate",
+    "test_exit_code":  0,
+    "test_tail":  "........................................................................ [100%]\r\n72 passed in 1.66s",
+    "test_log":  "C:\\Users\\Public\\Documents\\RiskRadarEngine02\\artifacts\\overnight_rdc_main\\v3_focus_20261111_063342.log",
+    "ngsim_60s_rows":  303650,
+    "ngsim_60s_source_rights":  "PENDING REVIEW",
+    "ngsim_60s_known_driver_identity":  false,
+    "ngsim_60s_indicator_provenance":  "UNKNOWN",
+    "ngsim_60s_peachtree_qa_present":  true,
+    "synthetic_smoke_status":  "PASS",
+    "real_heldout_benchmark_status":  "BLOCKED",
+    "real_heldout_blockers":  [
+                                  "source data use rights not yet cleared",
+                                  "driver identity and group-disjoint holdout unavailable",
+                                  "real observed event labels and per-track exposure not independently validated",
+                                  "site/recording and Peachtree duplicate ambiguity"
+                              ],
+    "metrics":  {
+                    "ADE":  "NOT MEASURED",
+                    "FDE":  "NOT MEASURED",
+                    "intent_precision":  "NOT MEASURED",
+                    "intent_recall":  "NOT MEASURED",
+                    "event_lead_time":  "NOT MEASURED",
+                    "false_alerts_per_hour":  "NOT MEASURED"
+                },
+    "git_push":  "NOT PERMITTED BEFORE 09:30",
+    "interpretation":  "Synthetic unit tests are not a real-data benchmark or a vehicle safety validation"
+}

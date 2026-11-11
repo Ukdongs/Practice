@@ -1,0 +1,108 @@
+{
+    "time_kst":  "2026-11-11T09:26:12.7479618+09:00",
+    "phase":  "09:00-09:29 PREP ONLY",
+    "free_ram_gib":  2.106,
+    "free_disk_gib":  26.241,
+    "recent_artifacts":  [
+                             {
+                                 "path":  "C:\\Users\\Public\\Documents\\RiskRadarEngine02\\artifacts\\overnight_rdc_main\\adversarial_evidence_gate_20261111_082715.json",
+                                 "name":  "adversarial_evidence_gate_20261111_082715.json",
+                                 "bytes":  2240,
+                                 "mtime":  "2026-11-11T08:27:15.8649932+09:00"
+                             },
+                             {
+                                 "path":  "C:\\Users\\Public\\Documents\\RiskRadarEngine02\\artifacts\\overnight_rdc_main\\physics_adversarial_gate_20261111_073505.json",
+                                 "name":  "physics_adversarial_gate_20261111_073505.json",
+                                 "bytes":  1188,
+                                 "mtime":  "2026-11-11T07:35:05.8090316+09:00"
+                             },
+                             {
+                                 "path":  "C:\\Users\\Public\\Documents\\RiskRadarEngine02\\artifacts\\overnight_rdc_main\\physics_regression_20261111_073447.log",
+                                 "name":  "physics_regression_20261111_073447.log",
+                                 "bytes":  204,
+                                 "mtime":  "2026-11-11T07:34:51.3301036+09:00"
+                             },
+                             {
+                                 "path":  "C:\\Users\\Public\\Documents\\RiskRadarEngine02\\artifacts\\overnight_rdc_main\\physics_regression_20261111_073439.log",
+                                 "name":  "physics_regression_20261111_073439.log",
+                                 "bytes":  2170,
+                                 "mtime":  "2026-11-11T07:34:40.3559842+09:00"
+                             },
+                             {
+                                 "path":  "C:\\Users\\Public\\Documents\\RiskRadarEngine02\\artifacts\\overnight_rdc_main\\v3_benchmark_eligibility_20261111_063342.json",
+                                 "name":  "v3_benchmark_eligibility_20261111_063342.json",
+                                 "bytes":  1676,
+                                 "mtime":  "2026-11-11T06:33:44.5030185+09:00"
+                             },
+                             {
+                                 "path":  "C:\\Users\\Public\\Documents\\RiskRadarEngine02\\artifacts\\overnight_rdc_main\\v3_focus_20261111_063342.log",
+                                 "name":  "v3_focus_20261111_063342.log",
+                                 "bytes":  104,
+                                 "mtime":  "2026-11-11T06:33:44.4299962+09:00"
+                             },
+                             {
+                                 "path":  "C:\\Users\\Public\\Documents\\RiskRadarEngine02\\artifacts\\overnight_rdc_main\\ngsim_60s_quality_20261111_0534.json",
+                                 "name":  "ngsim_60s_quality_20261111_0534.json",
+                                 "bytes":  13824,
+                                 "mtime":  "2026-11-11T05:35:07.2147670+09:00"
+                             },
+                             {
+                                 "path":  "C:\\Users\\Public\\Documents\\RiskRadarEngine02\\artifacts\\overnight_rdc_main\\qa_0534_ngsim.py",
+                                 "name":  "qa_0534_ngsim.py",
+                                 "bytes":  3970,
+                                 "mtime":  "2026-11-11T05:34:42.7738698+09:00"
+                             },
+                             {
+                                 "path":  "C:\\Users\\Public\\Documents\\RiskRadarEngine02\\artifacts\\overnight_rdc_main\\resource_gate_20261111_0430.json",
+                                 "name":  "resource_gate_20261111_0430.json",
+                                 "bytes":  2918,
+                                 "mtime":  "2026-11-11T04:30:22.8721748+09:00"
+                             }
+                         ],
+    "research_manifests":  [
+
+                           ],
+    "agent_logs":  [
+                       {
+                           "path":  "C:\\Users\\Public\\Documents\\RiskRadarEngine02\\artifacts\\local_failover\\events.jsonl",
+                           "name":  "events.jsonl",
+                           "bytes":  5092,
+                           "mtime":  "2026-11-11T09:15:03.4338281+09:00"
+                       }
+                   ],
+    "git_status":  [
+                       " M RiskRadarPleosApp/BUILD_APK_OFFLINE.ps1",
+                       " M RiskRadarPleosApp/app/src/main/java/ai/riskradar/assess/MainActivity.java",
+                       " M prism-risk-engine/src/prism_assess/engine.py",
+                       "?? CODEX_DATA_HARDENING_TASK.md",
+                       "?? CODEX_SIM_V2_TASK.md",
+                       "?? RUN_RDC_QA_UNTIL_0930.ps1",
+                       "?? RiskRadarPleosApp/app/src/main/assets/demo_data_v2.js",
+                       "?? RiskRadarPleosApp/app/src/main/assets/riskradar_v2.html",
+                       "?? RiskRadarPleosApp/app/src/main/assets/riskradar_v2.js",
+                       "?? RiskRadarPleosApp/app/src/main/assets/team_data_v2.js",
+                       "?? WORK_ORDER_20261111_0930.md",
+                       "?? docs/BEHAVIOR_V3_IMPLEMENTATION.md",
+                       "?? docs/BEHAVIOR_V3_RESEARCH_GPT.md",
+                       "?? docs/DATASET_RESEARCH_AND_SAFETY_PLAN.md",
+                       "?? docs/DATA_QUALITY_GATE.md",
+                       "?? docs/SIM_V2_VALIDATION.md",
+                       "?? ops/",
+                       "?? prism-risk-engine/tests/test_behavior_v3.py",
+                       "?? prism-risk-engine/tests/test_data_quality.py",
+                       "?? scripts/behavior_v3/",
+                       "?? scripts/data_quality/",
+                       "?? scripts/sim_v2/"
+                   ],
+    "active_collection":  [
+                              {
+                                  "ProcessId":  17584,
+                                  "Name":  "powershell.exe",
+                                  "Command":  "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -Command \"$ErrorActionPreference=\u0027Continue\u0027;$r=\u0027C:\\Users\\Public\\Documents\\RiskRadarEngine02\u0027;$o=Join-P"
+                              }
+                          ],
+    "blocked":  [
+                    "Real driving metrics NOT MEASURED until independently validated",
+                    "No Git push before 09:30"
+                ]
+}
